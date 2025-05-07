@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "540228724896",
+    "firebase_url": "https://college-project-studeck-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "college-project-studeck",
+    "storage_bucket": "college-project-studeck.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540228724896:android:97832bfaeca8163a7401c5",
+        "android_client_info": {
+          "package_name": "com.yasar.collegeproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsWjWsJRVNWDc69LdCrX1q8ukjBIBbSX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

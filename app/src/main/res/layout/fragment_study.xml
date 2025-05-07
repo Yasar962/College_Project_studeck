@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#494949"
+    tools:context=".StudyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- First Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+
+            <!-- Notes Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/notes_c"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:foreground="?attr/selectableItemBackground"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_marginHorizontal="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/square"
+                        android:src="@drawable/notes"
+                        android:padding="20dp"
+                        android:contentDescription="Notes Icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Notes"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/qcbold"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- PYQ Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/pyq_c"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:foreground="?attr/selectableItemBackground"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_marginHorizontal="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/square"
+                        android:src="@drawable/pyq"
+                        android:padding="16dp"
+                        android:contentDescription="PYQ Icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PYQ's"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/qcbold"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Lectures Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/lectures_c"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:foreground="?attr/selectableItemBackground"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_marginHorizontal="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/square"
+                        android:src="@drawable/video_library_svgrepo_com"
+                        android:padding="20dp"
+                        android:contentDescription="Lectures Icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lectures"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/qcbold"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- Second Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <!-- Timetable Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/timetable"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:foreground="?attr/selectableItemBackground"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_marginHorizontal="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/square"
+                        android:src="@drawable/timetable"
+                        android:padding="25dp"
+                        android:contentDescription="Timetable Icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TimeTable"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/qcbold"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Notices Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/notices"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:foreground="?attr/selectableItemBackground"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_marginHorizontal="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/square"
+                        android:src="@drawable/bell"
+                        android:padding="20dp"
+                        android:contentDescription="Notices Icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Notices"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/qcbold"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Calendar Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/calendar"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:foreground="?attr/selectableItemBackground"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_marginHorizontal="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/square"
+                        android:src="@drawable/calendar"
+                        android:padding="20dp"
+                        android:contentDescription="Calendar Icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calendar"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/qcbold"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

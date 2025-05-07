@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CollegeProject" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="BottomNavActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#404040</item>
+    </style>
+
+
+    <style name="Theme.CollegeProject" parent="Base.Theme.CollegeProject" />
+    <style name="Theme.BlackWhite" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary branding color -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">#000000</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Background and surface -->
+        <item name="colorOnBackground">#000000</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+
+        <!-- Error colors -->
+        <item name="colorError">#000000</item>
+        <item name="colorOnError">#FFFFFF</item>
+
+        <!-- Status bar / navigation bar -->
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+
+        <!-- Optional: Customize typography and shapes -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Material3.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Material3.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Material3.LargeComponent</item>
+    </style>
+</resources>
